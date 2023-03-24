@@ -1,6 +1,18 @@
-public class Speicher {
-    public static void main(String []args){
-    System.out.println("Hello World");
+public class Speicher implements Puffer{
+
+
+
+    public boolean isEmpty() {
+        return false;
     }
 
+
+    public int size() {
+        return 0;
+    }
+
+
+    public void capacity() {
+
+    }
 }
